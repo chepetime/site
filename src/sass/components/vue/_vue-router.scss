@@ -1,0 +1,23 @@
+
+/**
+ * Vue-router transition
+ */
+
+.fade-leave-active {
+  transition-duration: 0.15s;
+  transition-property: opacity;
+}
+
+.fade-enter-active {
+  transition-duration: 0.1s;
+  transition-property: opacity;
+}
+
+.fade-enter-active {
+  // transition-delay: 0.25s;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}

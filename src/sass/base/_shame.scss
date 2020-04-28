@@ -1,0 +1,25 @@
+.Home {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+  padding: 10vh 10vw;
+}
+
+.Home__Title {
+  font-size: 10vw;
+  line-height: 1.3;
+
+  color: #ffffff;
+
+  @include respond-to('medium') {
+    font-size: 6vw;
+    line-height: 1.3;
+  }
+}
+
+.Home__Email {
+  color: #ffffff;
+}

@@ -1,0 +1,17 @@
+/**
+ * Page
+ */
+
+.Page {
+  display: flex;
+
+  align-items: stretch;
+
+  min-height: 100vh;
+
+  background: #000000;
+}
+
+.Page--padded {
+  padding-top: 128px;
+}

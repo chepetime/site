@@ -1,0 +1,146 @@
+/**
+ *  Fonts
+ */
+
+$font-family-manrope: 'Manrope VF', Manrope, sans-serif;
+$font-size-base: 16px;
+$line-height-base: 1.2;
+
+$font-size-01: 0.75rem;  // 12px;
+$font-size-02: 0.875rem; // 14px;
+$font-size-03: 1rem;     // 16px;
+$font-size-04: 1.125rem; // 18px;
+$font-size-05: 1.25rem;  // 20px;
+$font-size-06: 1.5rem;   // 24px;
+$font-size-07: 1.875rem; // 30px;
+$font-size-08: 2.25rem;  // 36px;
+$font-size-09: 3rem;     // 48px;
+$font-size-10: 3.75rem;  // 60px;
+$font-size-11: 4.5rem;   // 72px;
+
+$letter-spacing-01: 0.38px;
+$letter-spacing-02: 0.44px;
+$letter-spacing-03: 0.5px;
+$letter-spacing-04: 0.56px;
+$letter-spacing-05: 0.62px;
+$letter-spacing-06: 0.75px;
+$letter-spacing-07: 0.94px;
+$letter-spacing-08: 1.12px;
+$letter-spacing-09: 1.5px;
+$letter-spacing-10: 1.88px;
+$letter-spacing-11: 2.25px;
+
+$line-height-01: 1.2;
+$line-height-02: 1.2;
+$line-height-03: 1.2;
+$line-height-04: 1.2;
+$line-height-05: 1.2;
+$line-height-06: 1.2;
+$line-height-07: 1.2;
+$line-height-08: 1.2;
+$line-height-09: 1.2;
+$line-height-10: 1.2;
+$line-height-11: 1.2;
+
+@charset 'UTF-8';
+
+// @font-face {
+//   font-family: 'Manrope VF';
+//   font-weight: 200 800;
+//   font-style: normal;
+
+//   src: url('/fonts/variable/ManropeGX.ttf') format('truetype-variations');
+// }
+
+// @font-face {
+//   font-family: 'Manrope';
+//   font-weight: 800;
+//   font-style: normal;
+
+//   src: url('/fonts/web/Manrope-ExtraBold.woff2') format('woff2'), url('/fonts/ttf/Manrope-ExtraBold.ttf') format('truetype');
+// }
+
+// @font-face {
+//   font-family: 'Manrope';
+//   font-weight: 700;
+//   font-style: normal;
+
+//   src: url('/fonts/web/Manrope-Bold.woff2') format('woff2'), url('/fonts/ttf/Manrope-Bold.ttf') format('truetype');
+// }
+
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 600;
+  font-style: normal;
+
+  src: url('/fonts/web/Manrope-SemiBold.woff2') format('woff2'), url('/fonts/ttf/Manrope-SemiBold.ttf') format('truetype');
+}
+
+// @font-face {
+//   font-family: 'Manrope';
+//   font-weight: 500;
+//   font-style: normal;
+
+//   src: url('/fonts/web/Manrope-Medium.woff2') format('woff2'), url('/fonts/ttf/Manrope-Medium.ttf') format('truetype');
+// }
+
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 400;
+  font-style: normal;
+
+  src: url('/fonts/web/Manrope-Regular.woff2') format('woff2'), url('/fonts/ttf/Manrope-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 300;
+  font-style: normal;
+
+  src: url('/fonts/web/Manrope-Light.woff2') format('woff2'), url('/fonts/ttf/Manrope-Light.ttf') format('truetype');
+}
+
+// @font-face {
+//   font-family: 'Manrope';
+//   font-weight: 200;
+//   font-style: normal;
+
+//   src: url('/fonts/web/Manrope-ExtraLight.woff2') format('woff2'), url('/fonts/ttf/Manrope-ExtraLight.ttf') format('truetype');
+// }
+
+*,
+*:before,
+*:after {
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+          font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: $font-family-manrope;
+  font-size: $font-size-base;
+  font-weight: 500;
+
+  font-feature-settings: 'calt', 'liga';
+  font-variation-ligatures: normal;
+  font-variation-settings: 'wght' 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-manrope;
+}
+
+p,
+a,
+ul,
+ol,
+li {
+  font-family: $font-family-manrope;
+}
